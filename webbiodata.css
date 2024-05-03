@@ -1,0 +1,50 @@
+* {padding: 0; margin:0;}
+body {background-color: #f7f1e3;}
+
+.containermenu {width: 1150px; margin: auto; padding-top: 18px; 
+    padding-bottom: 18px; display: flex; overflow: visible; position: relative; background-color: #0a3d62;}
+
+.menukiri {float:left; width: 270px; text-align: left; 
+    font-family: sans-serif; font-size: 18px;line-height: 45px; flex:1 ;}
+
+.menukiri h1 {color: white; padding-left: 10px;}
+.menukanan {float:right; width:900px; flex:2 ; padding-right: 10px; }    /*untuk mendistribusikan ruang sebanyak banyaknya */
+
+.menukanan img {width:20px; padding-top: 8px;}
+.menukanan a:hover {color: #fa983a;}
+
+nav ul li { float: right; list-style: none; 
+    background-color: #3c6382; position: relative; 
+}
+nav ul li a {margin-right: 5px; text-decoration: none;
+    padding: 3px 15px; text-align: left; color: white;font-family: sans-serif;
+}
+nav ul li ul {display: none; text-align: left;  float:left; width: 200px;}
+nav ul li:hover > ul {display:block;}
+/*tanda > digunakan agar saat di dekatkan cursor, pulldown menu
+tidak langsung keluar semua */
+
+
+nav {position:relative; background:#FFFFF; height: 40px;
+    line-height: 40px;
+}
+nav ul li ul {position: absolute; z-index: 999; right: 0px; left: auto;}
+
+nav ul li ul li {float: none; position:relative; padding: 10px 10px; width: 200px;}
+
+nav ul ul ul {left: 100%; top: 0; width: 200px;}
+
+
+
+.article1 {margin-top: 50px; padding-top: 50px; padding-bottom: 50px;}
+.kotakbiodata {width: 1150px;  overflow: hidden; margin-left: auto; margin-right: auto; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.article1 .kotakbiodata .biodata {float: left; margin-right: 50px; width: 540px;}
+
+.article1 .kotakbiodata .biodata button {font-size: 20px; padding: 5px 20px; background-color: black; color: white; 
+    border-radius: 5px; margin-top: 35px; font-family: sans-serif; cursor: pointer;
+}
+
+.article1 .kotakbiodata .fotobiodata {float: right;}
+.article1 img {width: 350px;}
+
